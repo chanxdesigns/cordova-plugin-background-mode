@@ -139,7 +139,7 @@ public class BackgroundModeExt extends CordovaPlugin {
 
         getApp().startActivity(intent);
 
-        getApp().finishActivity();
+        getApp().finish();
     }
 
     /**
